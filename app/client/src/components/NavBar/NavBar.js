@@ -448,7 +448,7 @@ const NavBar = (props) => {
                                 color: "inherit",
                             }}
                         >
-                            SPICE DIRECT WHOLESALE LTD
+                            SDW DS LTD
                         </Typography>
                     </Box>
                 <Tooltip title="Settings" arrow>
@@ -507,7 +507,7 @@ const NavBar = (props) => {
                 <div style={getLogoDivStyles(theme)}>
                     <Box sx={{ flex: 1, display: "flex", justifyContent: "center", alignItems: "center", height: "100%", "&:hover": {cursor:"pointer", opacity: 0.85} }} onClick={() => navigate('/')}>
                         <img
-                            src={process.env.REACT_APP_TYPE === "development" ? testLogo : logo}
+                            src={process.env.REACT_APP_TYPE === "development" ? testLogo : testLogo}
                             style={{
                                 maxWidth: "100%",
                                 maxHeight: "100%",

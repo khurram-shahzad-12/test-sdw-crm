@@ -4,7 +4,7 @@ const supplierInvoices = require("../supplier_invoices/model");
 const getBusinessConfig = () => ({
   region: process.env.BUSINESS_REGION || "GB",
   country: process.env.BUSINESS_REGION || "United Kingdom",
-  name: process.env.BUSINESS_NAME || "Spice Direct Wholesale Ltd",
+  name: process.env.BUSINESS_NAME || "SDW DS Ltd",
   vatNumber: process.env.VAT_NUMBER || "GB123456789",
 });
 
