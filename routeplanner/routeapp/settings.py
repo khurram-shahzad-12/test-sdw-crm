@@ -31,12 +31,15 @@ ALLOWED_HOSTS = [
     'spicedirectwholesale.co.uk',
     'www.spicedirectwholesale.co.uk',
     'staff.spicedirectwholesale.co.uk',
+    'test.sdw-ds.com',
     'localhost',
     '127.0.0.1',
     '5.81.127.70',
     '147.148.89.114',
     "147.148.89.42",
     "217.44.62.70",
+    '172.18.0.5',              
+    'test-sdw-crm-routeplanner-1', 
 ]
 
 
